@@ -1,0 +1,123 @@
+[
+  {
+    "id": "V0101",
+    "cname": "仅图片",
+    "properties": {
+      "close_enabled": true,
+      "close_style": {
+        "image": "https://s2.ax1x.com/2020/02/18/3FOztI.png",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    "template": {
+      "type": "view",
+      "properties": {
+        "backgroundColor": "",
+        "cornerRadius": "5px",
+        "borderWidth": "0",
+        "borderColor": "0",
+        "image": "https://s2.ax1x.com/2020/02/18/3FOsf0.png"
+      },
+      "layout": {
+        "align": "center",
+        "width": "0.8",
+        "margin": {
+          "top": "0.3"
+        }
+      }
+    }
+  },
+  {
+    "id": "V0102",
+    "cname": "图片 & 1 个按钮",
+    "properties": {
+      "close_enabled": true,
+      "close_style": {
+        "image": "https://s2.ax1x.com/2020/02/18/3FOztI.png",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    "template": {
+      "type": "view",
+      "properties": {
+        "backgroundColor": "#737373",
+        "cornerRadius": "5px",
+        "borderWidth": "0",
+        "borderColor": "0"
+      },
+      "layout": {
+        "align": "center",
+        "width": "0.8",
+        "margin": {
+          "top": "0.3"
+        }
+      },
+      "subviews": [
+        {
+          "type": "image",
+          "properties": {
+            "image": "https://s2.ax1x.com/2020/02/18/3kCdnP.jpg"
+          },
+          "layout": {
+            "align": "center",
+            "width": "240px",
+            "margin": {
+              "top": "30px"
+            }
+          }
+        },
+        {
+          "type": "label",
+          "properties": {
+            "text": "恭喜获得大礼包",
+            "font": "24px",
+            "color": "red"
+          },
+          "layout": {
+            "align": "center",
+            "margin": {
+              "top": "20px"
+            }
+          }
+        },
+        {
+          "type": "label",
+          "properties": {
+            "text": "点击按钮立即领取",
+            "font": "18px",
+            "color": "#ffffff",
+            "backgroundColor": "#f9c823"
+          },
+          "layout": {
+            "align": "center",
+            "margin": {
+              "top": "20px"
+            }
+          }
+        },
+        {
+          "type": "button",
+          "properties": {
+            "text": "领取大礼包",
+            "font": "18px",
+            "color": "#ffffff",
+            "backgroundColor": "#f9c823",
+            "borderColor": "#e5b30d",
+            "borderWidth": "2px",
+            "cornerRadius": "10px",
+            "width": "240px",
+            "height": "64px"
+          },
+          "layout": {
+            "align": "center",
+            "margin": {
+              "top": "20px"
+            }
+          }
+        }
+      ]
+    }
+  }
+]
