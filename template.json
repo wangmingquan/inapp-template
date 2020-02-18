@@ -1,0 +1,65 @@
+[
+  {
+    "id": "V0101",
+    "cname": "仅图片",
+    "template": {
+    "type": "view",
+      "properties": {
+        "backgroundColor": "",
+        "cornerRadius": "5px",
+        "borderWidth": "0",
+        "borderColor": "0",
+        "image": ""
+      },
+      "layout": {
+        "align": "center",
+        "width": "0.8",
+        "margin": {
+          "top": "0.3"
+        }
+      }
+    }
+  },
+  {
+    "id": "V0102",
+    "cname": "图片 & 1 个按钮",
+    "template": {
+      "style": ""
+    }
+  },
+  {
+    "id": "V0103",
+    "cname": "文字 & 1 个按钮",
+    "template": {
+      "style": ""
+    }
+  },
+  {
+    "id": "V0104",
+    "cname": "图片 & 2 个按钮",
+    "template": {
+      "style": ""
+    }
+  },
+  {
+    "id": "V0105",
+    "cname": "文字 & 2 个按钮",
+    "template": {
+      "style": ""
+    }
+  },
+  {
+    "id": "V0106",
+    "cname": "图片 & 2 个按钮",
+    "template": {
+      "style": ""
+    }
+  },
+  {
+    "id": "V0107",
+    "cname": "文字 & 2 个按钮",
+    "template": {
+      "style": ""
+    }
+  }
+]
