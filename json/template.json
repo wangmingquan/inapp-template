@@ -8,24 +8,31 @@
         "image": "https://s2.ax1x.com/2020/02/18/3FOztI.png",
         "width": "32px",
         "height": "32px"
-      }
+      },
+      "maskColor": "rgba(0, 0, 0, 0.1)"
     },
     "template": {
       "type": "view",
-      "properties": {
-        "backgroundColor": "",
-        "cornerRadius": "5px",
-        "borderWidth": "0",
-        "borderColor": "0",
-        "image": "https://s2.ax1x.com/2020/02/18/3FOsf0.png"
-      },
       "layout": {
         "align": "center",
-        "width": "0.8",
+        "width": "0.75",
         "margin": {
-          "top": "0.3"
+          "top": "0.4"
         }
-      }
+      },
+      "subviews": [
+        {
+          "type": "image",
+          "properties": {
+            "image": "https://s2.ax1x.com/2020/02/18/3FOsf0.png",
+            "cornerRadius": "5px"
+          },
+          "layout": {
+            "align": "center",
+            "width": "1.0"
+          }
+        }
+      ]
     }
   },
   {
@@ -37,12 +44,13 @@
         "image": "https://s2.ax1x.com/2020/02/18/3FOztI.png",
         "width": "32px",
         "height": "32px"
-      }
+      },
+      "maskColor": "rgba(0, 0, 0, 0.3)"
     },
     "template": {
       "type": "view",
       "properties": {
-        "backgroundColor": "#737373",
+        "backgroundColor": "#ffffff",
         "cornerRadius": "5px",
         "borderWidth": "0",
         "borderColor": "0"
@@ -58,7 +66,8 @@
         {
           "type": "image",
           "properties": {
-            "image": "https://s2.ax1x.com/2020/02/18/3kCdnP.jpg"
+            "image": "https://s2.ax1x.com/2020/02/18/3kCdnP.jpg",
+            "cornerRadius": "0.5"
           },
           "layout": {
             "align": "center",
@@ -73,7 +82,8 @@
           "properties": {
             "text": "恭喜获得大礼包",
             "font": "24px",
-            "color": "red"
+            "color": "red",
+            "textAlign": "center"
           },
           "layout": {
             "align": "center",
@@ -88,12 +98,17 @@
             "text": "点击按钮立即领取",
             "font": "18px",
             "color": "#ffffff",
-            "backgroundColor": "#f9c823"
+            "backgroundColor": "#f9c823",
+            "cornerRadius": "5px",
+            "lineHeight": "32px",
+            "textAlign": "center"
           },
           "layout": {
             "align": "center",
             "margin": {
-              "top": "20px"
+              "top": "20px",
+              "right": "20px",
+              "left": "20px"
             }
           }
         },
@@ -106,9 +121,142 @@
             "backgroundColor": "#f9c823",
             "borderColor": "#e5b30d",
             "borderWidth": "2px",
-            "cornerRadius": "10px",
+            "cornerRadius": "5px",
+            "width": "150px",
+            "height": "48px"
+          },
+          "layout": {
+            "align": "center",
+            "margin": {
+              "top": "20px",
+              "bottom": "20px"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "V0103",
+    "cname": "文字 & 1 个按钮",
+    "properties": {
+      "close_enabled": false,
+      "maskColor": "rgba(0, 0, 0, 0.5)"
+    },
+    "template": {
+      "type": "view",
+      "properties": {
+        "backgroundColor": "#ffffff",
+        "cornerRadius": "20px",
+        "borderWidth": "0",
+        "borderColor": "0"
+      },
+      "layout": {
+        "align": "center",
+        "width": "0.75",
+        "margin": {
+          "top": "0.5"
+        }
+      },
+      "subviews": [
+        {
+          "type": "label",
+          "properties": {
+            "text": "这是一个标题",
+            "font": "24px",
+            "color": "red"
+          },
+          "layout": {
+            "align": "center",
+            "margin": {
+              "top": "40px",
+              "left": "20px"
+            }
+          }
+        },
+        {
+          "type": "label",
+          "properties": {
+            "text": "这里是一大段文字，巴拉巴拉，这里是一大段文字，巴拉巴拉，这里是一大段文字，巴拉巴拉，这里是一大段文字，巴拉巴拉",
+            "font": "18px",
+            "cornerRadius": "5px",
+            "lineHeight": "28px"
+          },
+          "layout": {
+            "align": "center",
+            "margin": {
+              "top": "20px",
+              "right": "20px",
+              "left": "20px"
+            }
+          }
+        },
+        {
+          "type": "button",
+          "properties": {
+            "text": "点击查看详情",
+            "font": "18px",
+            "color": "#ffffff",
+            "backgroundColor": "#04cb94",
+            "borderWidth": "0px",
+            "cornerRadius": "24px",
+            "width": "150px",
+            "height": "48px"
+          },
+          "layout": {
+            "align": "center",
+            "margin": {
+              "top": "20px",
+              "bottom": "20px"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "V0104",
+    "cname": "图片 & 2 个按钮",
+    "properties": {
+      "maskColor": "rgba(0, 0, 0, 0.75)"
+    },
+    "template": {
+      "type": "view",
+      "properties": {
+        "backgroundColor": "#ffffff",
+        "cornerRadius": "5px",
+        "borderWidth": "0",
+        "borderColor": "0"
+      },
+      "layout": {
+        "align": "center",
+        "width": "0.8",
+        "margin": {
+          "top": "0.3"
+        }
+      },
+      "subviews": [
+        {
+          "type": "image",
+          "properties": {
+            "image": "https://s2.ax1x.com/2020/02/18/3kCdnP.jpg",
+            "cornerRadius": "0.5"
+          },
+          "layout": {
+            "align": "center",
             "width": "240px",
-            "height": "64px"
+            "margin": {
+              "top": "30px"
+            }
+          }
+        },
+        {
+          "type": "label",
+          "properties": {
+            "text": "恭喜获得大礼包",
+            "font": "24px",
+            "color": "red",
+            "textAlign": "center"
           },
           "layout": {
             "align": "center",
@@ -116,6 +264,78 @@
               "top": "20px"
             }
           }
+        },
+        {
+          "type": "label",
+          "properties": {
+            "text": "点击按钮立即领取",
+            "font": "18px",
+            "color": "#f9c823",
+            "lineHeight": "32px",
+            "textAlign": "center"
+          },
+          "layout": {
+            "align": "center",
+            "margin": {
+              "top": "20px",
+              "right": "20px",
+              "left": "20px"
+            }
+          }
+        },
+        {
+          "type": "view",
+          "properties": {
+            "overflow": "hidden"
+          },
+          "layout": {
+            "margin": {
+              "top": "20px",
+              "bottom": "20px",
+              "left": "15px",
+              "right": "15px"
+            }
+          },
+          "subviews": [
+            {
+              "type": "button",
+              "properties": {
+                "text": "送我都不要",
+                "font": "18px",
+                "color": "#ffffff",
+                "backgroundColor": "#f9c823",
+                "borderColor": "#e5b30d",
+                "borderWidth": "1px",
+                "cornerRadius": "5px",
+                "width": "120px",
+                "height": "48px"
+              },
+              "layout": {
+                "align": "left",
+                "margin": {
+                }
+              }
+            },
+            {
+              "type": "button",
+              "properties": {
+                "text": "领取大礼包",
+                "font": "18px",
+                "color": "#ffffff",
+                "backgroundColor": "#f9c823",
+                "borderColor": "#e5b30d",
+                "borderWidth": "1px",
+                "cornerRadius": "5px",
+                "width": "120px",
+                "height": "48px"
+              },
+              "layout": {
+                "align": "right",
+                "margin": {
+                }
+              }
+            }
+          ]
         }
       ]
     }
