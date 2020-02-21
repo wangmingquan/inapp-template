@@ -29,14 +29,15 @@ export default {
 <style lang="less" scoped>
 .page{
   display:flex;
-  padding: 20px;
-  zoom: 0.75;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  // zoom: 0.75;
   .phone{
     border: #ccc 1px solid;
     width: 375px;
     height: 812px;
     overflow-y: auto;
-    margin: 0 10px;
+    margin: 10px;
   }
 }
 </style>

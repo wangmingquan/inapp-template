@@ -15,7 +15,7 @@
       "type": "view",
       "layout": {
         "align": "center",
-        "width": "0.75",
+        "width": "287px",
         "margin": {
           "top": "0.4"
         }
@@ -29,7 +29,8 @@
           },
           "layout": {
             "align": "center",
-            "width": "1.0"
+            "width": "287px",
+            "height": "382px"
           }
         }
       ]
@@ -67,11 +68,12 @@
           "type": "image",
           "properties": {
             "image": "https://s2.ax1x.com/2020/02/18/3kCdnP.jpg",
-            "cornerRadius": "0.5"
+            "cornerRadius": "120px"
           },
           "layout": {
             "align": "center",
             "width": "240px",
+            "height": "240px",
             "margin": {
               "top": "30px"
             }
@@ -240,11 +242,12 @@
           "type": "image",
           "properties": {
             "image": "https://s2.ax1x.com/2020/02/18/3kCdnP.jpg",
-            "cornerRadius": "0.5"
+            "cornerRadius": "120px"
           },
           "layout": {
             "align": "center",
             "width": "240px",
+            "height": "240px",
             "margin": {
               "top": "30px"
             }
