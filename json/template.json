@@ -97,20 +97,18 @@
         {
           "type": "label",
           "properties": {
-            "text": "点击按钮立即领取",
-            "font": "18px",
-            "color": "#ffffff",
-            "backgroundColor": "#f9c823",
-            "cornerRadius": "5px",
-            "lineHeight": "32px",
+            "text": "点击下方 “领取大礼包” 立即领取",
+            "font": "14px",
+            "color": "blue",
+            "backgroundColor": "#efefef",
+            "lineHeight": "24px",
             "textAlign": "center"
           },
           "layout": {
             "align": "center",
+            "width": "0.8",
             "margin": {
-              "top": "20px",
-              "right": "20px",
-              "left": "20px"
+              "top": "20px"
             }
           }
         },

@@ -1,5 +1,7 @@
 <template>
   <div class="container">
+    <a href="tel:110">110</a>
+    <button @click="call110">110</button>
     <div class="page">
       <div v-for="item of data" :key="item.id" class="phone">
         <InApp :data="util.data2dom(item)" />
@@ -21,6 +23,11 @@ export default {
     return {
       data,
       util
+    }
+  },
+  methods: {
+    call110 () {
+      location.href = 'tel:110'
     }
   }
 }
