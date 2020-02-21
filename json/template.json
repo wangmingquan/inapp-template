@@ -88,6 +88,7 @@
             "textAlign": "center"
           },
           "layout": {
+            "width": "1.0",
             "align": "center",
             "margin": {
               "top": "20px"
@@ -127,6 +128,7 @@
           },
           "layout": {
             "align": "center",
+            "width": "0.5",
             "margin": {
               "top": "20px",
               "bottom": "20px"
@@ -168,9 +170,9 @@
           },
           "layout": {
             "align": "center",
+            "width": "0.85",
             "margin": {
-              "top": "40px",
-              "left": "20px"
+              "top": "40px"
             }
           }
         },
@@ -184,10 +186,9 @@
           },
           "layout": {
             "align": "center",
+            "width": "0.85",
             "margin": {
-              "top": "20px",
-              "right": "20px",
-              "left": "20px"
+              "top": "20px"
             }
           }
         },
@@ -205,6 +206,7 @@
           },
           "layout": {
             "align": "center",
+            "width": "0.6",
             "margin": {
               "top": "20px",
               "bottom": "20px"
@@ -261,6 +263,7 @@
           },
           "layout": {
             "align": "center",
+            "width": "0.85",
             "margin": {
               "top": "20px"
             }
@@ -277,10 +280,9 @@
           },
           "layout": {
             "align": "center",
+            "width": "0.85",
             "margin": {
-              "top": "20px",
-              "right": "20px",
-              "left": "20px"
+              "top": "20px"
             }
           }
         },
@@ -290,11 +292,11 @@
             "overflow": "hidden"
           },
           "layout": {
+            "align": "center",
+            "width": "0.88",
             "margin": {
               "top": "20px",
-              "bottom": "20px",
-              "left": "15px",
-              "right": "15px"
+              "bottom": "20px"
             }
           },
           "subviews": [
@@ -313,8 +315,7 @@
               },
               "layout": {
                 "align": "left",
-                "margin": {
-                }
+                "width": "0.45"
               }
             },
             {
@@ -332,8 +333,7 @@
               },
               "layout": {
                 "align": "right",
-                "margin": {
-                }
+                "width": "0.45"
               }
             }
           ]
