@@ -53,8 +53,7 @@
       "properties": {
         "backgroundColor": "#ffffff",
         "cornerRadius": "5px",
-        "borderWidth": "0",
-        "borderColor": "0"
+        "borderWidth": "0"
       },
       "layout": {
         "align": "center",
@@ -150,8 +149,7 @@
       "properties": {
         "backgroundColor": "#ffffff",
         "cornerRadius": "20px",
-        "borderWidth": "0",
-        "borderColor": "0"
+        "borderWidth": "0"
       },
       "layout": {
         "align": "center",
@@ -227,8 +225,7 @@
       "properties": {
         "backgroundColor": "#ffffff",
         "cornerRadius": "5px",
-        "borderWidth": "0",
-        "borderColor": "0"
+        "borderWidth": "0"
       },
       "layout": {
         "align": "center",
