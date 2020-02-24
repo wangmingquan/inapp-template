@@ -122,7 +122,6 @@
             "borderColor": "rgba(229, 179, 13, 1)",
             "borderWidth": "2px",
             "cornerRadius": "5px",
-            "width": "150px",
             "height": "48px"
           },
           "layout": {
@@ -199,7 +198,6 @@
             "backgroundColor": "rgba(4, 203, 148, 1)",
             "borderWidth": "0px",
             "cornerRadius": "24px",
-            "width": "150px",
             "height": "48px"
           },
           "layout": {
@@ -307,7 +305,6 @@
                 "borderColor": "rgba(229, 179, 13, 1)",
                 "borderWidth": "1px",
                 "cornerRadius": "5px",
-                "width": "120px",
                 "height": "48px"
               },
               "layout": {
@@ -328,7 +325,6 @@
                 "borderColor": "rgba(229, 179, 13, 1)",
                 "borderWidth": "1px",
                 "cornerRadius": "5px",
-                "width": "120px",
                 "height": "48px"
               },
               "layout": {
@@ -438,8 +434,7 @@
           "properties": {
             "text": "查看详细说明和解释",
             "font": "14px",
-            "color": "rgba(0, 0, 255, 1)",
-            "width": "120px"
+            "color": "rgba(0, 0, 255, 1)"
           },
           "layout": {
             "align": "center",
