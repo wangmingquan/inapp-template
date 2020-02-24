@@ -3,8 +3,8 @@
     "id": "V0101",
     "cname": "仅图片",
     "properties": {
-      "close_enabled": true,
-      "close_style": {
+      "closeEnabled": true,
+      "closeStyle": {
         "image": "https://s2.ax1x.com/2020/02/18/3FOztI.png",
         "width": "32px",
         "height": "32px"
@@ -40,8 +40,8 @@
     "id": "V0102",
     "cname": "图片 & 1 个按钮",
     "properties": {
-      "close_enabled": true,
-      "close_style": {
+      "closeEnabled": true,
+      "closeStyle": {
         "image": "https://s2.ax1x.com/2020/02/18/3FOztI.png",
         "width": "32px",
         "height": "32px"
@@ -141,7 +141,7 @@
     "id": "V0103",
     "cname": "文字 & 1 个按钮",
     "properties": {
-      "close_enabled": false,
+      "closeEnabled": false,
       "maskColor": "rgba(0, 0, 0, 0.5)"
     },
     "template": {
@@ -340,6 +340,116 @@
               }
             }
           ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "V0105",
+    "cname": "图片 & 2 个按钮",
+    "properties": {
+      "maskColor": "rgba(0, 0, 0, 0.75)"
+    },
+    "template": {
+      "type": "view",
+      "properties": {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "cornerRadius": "5px",
+        "borderWidth": "0"
+      },
+      "layout": {
+        "align": "center",
+        "width": "0.8",
+        "margin": {
+          "top": "125px"
+        }
+      },
+      "subviews": [
+        {
+          "type": "image",
+          "properties": {
+            "image": "https://s2.ax1x.com/2020/02/18/3kCdnP.jpg",
+            "cornerRadius": "120px"
+          },
+          "layout": {
+            "align": "center",
+            "width": "240px",
+            "height": "240px",
+            "margin": {
+              "top": "30px"
+            }
+          }
+        },
+        {
+          "type": "label",
+          "properties": {
+            "text": "恭喜获得大礼包",
+            "font": "24px",
+            "color": "rgba(255, 0, 0, 1)",
+            "textAlign": "center"
+          },
+          "layout": {
+            "align": "center",
+            "width": "0.85",
+            "margin": {
+              "top": "20px"
+            }
+          }
+        },
+        {
+          "type": "label",
+          "properties": {
+            "text": "点击按钮立即领取",
+            "font": "18px",
+            "color": "rgba(249, 200, 35, 1)",
+            "lineHeight": "32px",
+            "textAlign": "center"
+          },
+          "layout": {
+            "align": "center",
+            "width": "0.85",
+            "margin": {
+              "top": "20px"
+            }
+          }
+        },
+        {
+          "type": "button",
+          "properties": {
+            "text": "立即领取",
+            "font": "18px",
+            "color": "rgba(255, 255, 255, 1)",
+            "backgroundColor": "rgba(249, 200, 35, 1)",
+            "borderColor": "rgba(229, 179, 13, 1)",
+            "borderWidth": "1px",
+            "cornerRadius": "5px"
+          },
+          "layout": {
+            "height": "48px",
+            "align": "center",
+            "width": "0.6",
+            "margin": {
+              "top": "20px"
+            }
+          }
+        },
+        {
+          "type": "link",
+          "properties": {
+            "text": "查看详细说明和解释",
+            "font": "14px",
+            "color": "rgba(0, 0, 255, 1)",
+            "width": "120px"
+          },
+          "layout": {
+            "align": "center",
+            "width": "0.5",
+            "layout": "center",
+            "margin": {
+              "top": "20px",
+              "bottom": "30px"
+            }
+          }
         }
       ]
     }

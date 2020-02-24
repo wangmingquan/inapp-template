@@ -5,7 +5,8 @@ export default {
       view: 'div',
       label: 'p',
       image: 'img',
-      button: 'button'
+      button: 'button',
+      link: 'a'
     }
     const styleMap = {
       backgroundColor: 'background-color',
@@ -30,7 +31,8 @@ export default {
       display: 'display',
       lineHeight: 'line-height',
       textAlign: 'text-align',
-      padding: 'padding'
+      padding: 'padding',
+      textDecoration: 'text-decoration'
     }
 
     const getHTML = (template, options = {}) => {
@@ -59,6 +61,13 @@ export default {
       if (type === 'image' || type === 'button') {
         Object.assign(style, {
           display: 'block'
+        })
+      }
+      // link 特殊样式
+      if (type === 'link') {
+        Object.assign(style, {
+          display: 'block',
+          textDecoration: 'underline'
         })
       }
       // 样式：对齐方式
@@ -109,6 +118,9 @@ export default {
       if (type === 'label') {
         html.push(`<p style="${styleStrs.join('; ')}">`)
         html.push(properties.text)
+      } else if (type === 'link') {
+        html.push(`<a style="${styleStrs.join('; ')}">`)
+        html.push(properties.text)
       } else if (type === 'view') {
         html.push(`<div style="${styleStrs.join('; ')}">`)
       } else if (type === 'button') {
@@ -124,10 +136,10 @@ export default {
         }
       }
 
-      if (isFirstLevel && closeConfig.close_enabled) {
-        const { close_style } = closeConfig
-        const { image, width, height } = close_style
-        const closeStyle = {
+      if (isFirstLevel && closeConfig.closeEnabled) {
+        const { closeStyle } = closeConfig
+        const { image, width, height } = closeStyle
+        const _closeStyle = {
           position: 'absolute',
           right: parseInt(width) / -2 + 'px',
           top: parseInt(height) / -2 + 'px',
@@ -137,8 +149,8 @@ export default {
           height: height
         }
         const closeStyleStr = []
-        for (const i in closeStyle) {
-          closeStyleStr.push(`${i}: ${closeStyle[i]}`)
+        for (const i in _closeStyle) {
+          closeStyleStr.push(`${i}: ${_closeStyle[i]}`)
         }
         html.push(`<div style="${closeStyleStr.join('; ')}"></div>`)
       }
@@ -156,8 +168,8 @@ export default {
     tree.push(getHTML(data.template, {
       isFirstLevel: true,
       closeConfig: {
-        close_enabled: data.properties.close_enabled,
-        close_style: data.properties.close_style
+        closeEnabled: data.properties.closeEnabled,
+        closeStyle: data.properties.closeStyle
       }
     }))
     tree.push('</div>')
