@@ -444,6 +444,7 @@
           "layout": {
             "align": "center",
             "width": "0.5",
+            "textAlign": "center",
             "layout": "center",
             "margin": {
               "top": "20px",
