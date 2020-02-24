@@ -1,9 +1,5 @@
 <template>
   <div class="container">
-    <a href="tel:110">110</a>
-    <button @click="call110">110</button>
-
-    <div class="text-box">这里是一段乱七八糟的文字，没有设置line-height，各位瞅瞅</div>
     <div class="page">
       <div v-for="item of data" :key="item.id" class="phone">
         <InApp :data="util.data2dom(item)" />

@@ -51,7 +51,7 @@
     "template": {
       "type": "view",
       "properties": {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "rgba(255, 255, 255, 1)",
         "cornerRadius": "5px",
         "borderWidth": "0"
       },
@@ -83,7 +83,7 @@
           "properties": {
             "text": "恭喜获得大礼包",
             "font": "24px",
-            "color": "red",
+            "color": "rgba(255, 0, 0, 1)",
             "textAlign": "center"
           },
           "layout": {
@@ -99,8 +99,8 @@
           "properties": {
             "text": "点击下方 “领取大礼包” 立即领取",
             "font": "14px",
-            "color": "blue",
-            "backgroundColor": "#efefef",
+            "color": "rgba(0, 0, 255, 1)",
+            "backgroundColor": "rgba(239, 239, 239, 1)",
             "lineHeight": "24px",
             "textAlign": "center"
           },
@@ -117,9 +117,9 @@
           "properties": {
             "text": "领取大礼包",
             "font": "18px",
-            "color": "#ffffff",
-            "backgroundColor": "#f9c823",
-            "borderColor": "#e5b30d",
+            "color": "rgba(255, 255, 255, 1)",
+            "backgroundColor": "rgba(249, 200, 35, 1)",
+            "borderColor": "rgba(229, 179, 13, 1)",
             "borderWidth": "2px",
             "cornerRadius": "5px",
             "width": "150px",
@@ -147,7 +147,7 @@
     "template": {
       "type": "view",
       "properties": {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "rgba(255, 255, 255, 1)",
         "cornerRadius": "20px",
         "borderWidth": "0"
       },
@@ -164,7 +164,7 @@
           "properties": {
             "text": "这是一个标题",
             "font": "24px",
-            "color": "red"
+            "color": "rgba(255, 0, 0, 1)"
           },
           "layout": {
             "align": "center",
@@ -195,8 +195,8 @@
           "properties": {
             "text": "点击查看详情",
             "font": "18px",
-            "color": "#ffffff",
-            "backgroundColor": "#04cb94",
+            "color": "rgba(255, 255, 255, 1)",
+            "backgroundColor": "rgba(4, 203, 148, 1)",
             "borderWidth": "0px",
             "cornerRadius": "24px",
             "width": "150px",
@@ -223,7 +223,7 @@
     "template": {
       "type": "view",
       "properties": {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "rgba(255, 255, 255, 1)",
         "cornerRadius": "5px",
         "borderWidth": "0"
       },
@@ -255,7 +255,7 @@
           "properties": {
             "text": "恭喜获得大礼包",
             "font": "24px",
-            "color": "red",
+            "color": "rgba(255, 0, 0, 1)",
             "textAlign": "center"
           },
           "layout": {
@@ -271,7 +271,7 @@
           "properties": {
             "text": "点击按钮立即领取",
             "font": "18px",
-            "color": "#f9c823",
+            "color": "rgba(249, 200, 35, 1)",
             "lineHeight": "32px",
             "textAlign": "center"
           },
@@ -302,9 +302,9 @@
               "properties": {
                 "text": "送我都不要",
                 "font": "18px",
-                "color": "#ffffff",
-                "backgroundColor": "#f9c823",
-                "borderColor": "#e5b30d",
+                "color": "rgba(255, 255, 255, 1)",
+                "backgroundColor": "rgba(249, 200, 35, 1)",
+                "borderColor": "rgba(229, 179, 13, 1)",
                 "borderWidth": "1px",
                 "cornerRadius": "5px",
                 "width": "120px",
@@ -323,9 +323,9 @@
               "properties": {
                 "text": "领取大礼包",
                 "font": "18px",
-                "color": "#ffffff",
-                "backgroundColor": "#f9c823",
-                "borderColor": "#e5b30d",
+                "color": "rgba(255, 255, 255, 1)",
+                "backgroundColor": "rgba(249, 200, 35, 1)",
+                "borderColor": "rgba(229, 179, 13, 1)",
                 "borderWidth": "1px",
                 "cornerRadius": "5px",
                 "width": "120px",
