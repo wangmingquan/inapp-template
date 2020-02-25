@@ -1,3 +1,11 @@
+const rgba = (color) => {
+  if (typeof color === 'string') {
+    return color
+  } else {
+    return `rgba(${color.r}, ${color.g}, ${color.b}, ${color.a})`
+  }
+}
+
 export default {
   data2dom (data) {
     const tree = []
@@ -111,7 +119,7 @@ export default {
       const styleStrs = []
       for (const i in style) {
         if (styleMap[i]) {
-          styleStrs.push(`${styleMap[i]}: ${style[i]}`)
+          styleStrs.push(`${styleMap[i]}: ${rgba(style[i])}`)
         }
       }
 
@@ -163,7 +171,7 @@ export default {
       return html.join('')
     }
     // 遮罩层
-    tree.push(`<div style="width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: ${data.properties.maskColor}">`)
+    tree.push(`<div style="width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: ${rgba(data.properties.maskColor)}">`)
     // 弹窗内容
     tree.push(getHTML(data.template, {
       isFirstLevel: true,
