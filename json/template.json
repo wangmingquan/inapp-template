@@ -9,7 +9,7 @@
         "width": "32px",
         "height": "32px"
       },
-      "maskColor": "rgba(0, 0, 0, 0.1)"
+      "maskColor": "rgba(0,0,0,0.1)"
     },
     "template": {
       "type": "view",
@@ -46,12 +46,12 @@
         "width": "32px",
         "height": "32px"
       },
-      "maskColor": "rgba(0, 0, 0, 0.3)"
+      "maskColor": "rgba(0,0,0,0.3)"
     },
     "template": {
       "type": "view",
       "properties": {
-        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "backgroundColor": "rgba(255,255,255,1)",
         "cornerRadius": "5px",
         "borderWidth": "0"
       },
@@ -83,7 +83,7 @@
           "properties": {
             "text": "恭喜获得大礼包",
             "font": "24px",
-            "color": "rgba(255, 0, 0, 1)",
+            "color": "rgba(255,0,0,1)",
             "textAlign": "center"
           },
           "layout": {
@@ -99,8 +99,8 @@
           "properties": {
             "text": "点击下方 “领取大礼包” 立即领取",
             "font": "14px",
-            "color": "rgba(0, 0, 255, 1)",
-            "backgroundColor": "rgba(239, 239, 239, 1)",
+            "color": "rgba(0,0,255,1)",
+            "backgroundColor": "rgba(239,239,239,1)",
             "lineHeight": "24px",
             "textAlign": "center"
           },
@@ -117,9 +117,9 @@
           "properties": {
             "text": "领取大礼包",
             "font": "18px",
-            "color": "rgba(255, 255, 255, 1)",
-            "backgroundColor": "rgba(249, 200, 35, 1)",
-            "borderColor": "rgba(229, 179, 13, 1)",
+            "color": "rgba(255,255,255,1)",
+            "backgroundColor": "rgba(249,200,35,1)",
+            "borderColor": "rgba(229,179,13,1)",
             "borderWidth": "2px",
             "cornerRadius": "5px",
             "height": "48px"
@@ -141,12 +141,12 @@
     "cname": "文字 & 1 个按钮",
     "properties": {
       "closeEnabled": false,
-      "maskColor": "rgba(0, 0, 0, 0.5)"
+      "maskColor": "rgba(0,0,0,0.5)"
     },
     "template": {
       "type": "view",
       "properties": {
-        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "backgroundColor": "rgba(255,255,255,1)",
         "cornerRadius": "20px",
         "borderWidth": "0"
       },
@@ -163,7 +163,7 @@
           "properties": {
             "text": "这是一个标题",
             "font": "24px",
-            "color": "rgba(255, 0, 0, 1)"
+            "color": "rgba(255,0,0,1)"
           },
           "layout": {
             "align": "center",
@@ -194,8 +194,8 @@
           "properties": {
             "text": "点击查看详情",
             "font": "18px",
-            "color": "rgba(255, 255, 255, 1)",
-            "backgroundColor": "rgba(4, 203, 148, 1)",
+            "color": "rgba(255,255,255,1)",
+            "backgroundColor": "rgba(4,203,148,1)",
             "borderWidth": "0px",
             "cornerRadius": "24px",
             "height": "48px"
@@ -216,12 +216,12 @@
     "id": "V0104",
     "cname": "图片 & 2 个按钮",
     "properties": {
-      "maskColor": "rgba(0, 0, 0, 0.75)"
+      "maskColor": "rgba(0,0,0,0.75)"
     },
     "template": {
       "type": "view",
       "properties": {
-        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "backgroundColor": "rgba(255,255,255,1)",
         "cornerRadius": "5px",
         "borderWidth": "0"
       },
@@ -253,7 +253,7 @@
           "properties": {
             "text": "恭喜获得大礼包",
             "font": "24px",
-            "color": "rgba(255, 0, 0, 1)",
+            "color": "rgba(255,0,0,1)",
             "textAlign": "center"
           },
           "layout": {
@@ -269,7 +269,7 @@
           "properties": {
             "text": "点击按钮立即领取",
             "font": "18px",
-            "color": "rgba(249, 200, 35, 1)",
+            "color": "rgba(249,200,35,1)",
             "lineHeight": "32px",
             "textAlign": "center"
           },
@@ -300,9 +300,9 @@
               "properties": {
                 "text": "送我都不要",
                 "font": "18px",
-                "color": "rgba(255, 255, 255, 1)",
-                "backgroundColor": "rgba(249, 200, 35, 1)",
-                "borderColor": "rgba(229, 179, 13, 1)",
+                "color": "rgba(255,255,255,1)",
+                "backgroundColor": "rgba(249,200,35,1)",
+                "borderColor": "rgba(229,179,13,1)",
                 "borderWidth": "1px",
                 "cornerRadius": "5px",
                 "height": "48px"
@@ -320,9 +320,9 @@
               "properties": {
                 "text": "领取大礼包",
                 "font": "18px",
-                "color": "rgba(255, 255, 255, 1)",
-                "backgroundColor": "rgba(249, 200, 35, 1)",
-                "borderColor": "rgba(229, 179, 13, 1)",
+                "color": "rgba(255,255,255,1)",
+                "backgroundColor": "rgba(249,200,35,1)",
+                "borderColor": "rgba(229,179,13,1)",
                 "borderWidth": "1px",
                 "cornerRadius": "5px",
                 "height": "48px"
@@ -344,12 +344,12 @@
     "id": "V0105",
     "cname": "图片 & 2 个按钮",
     "properties": {
-      "maskColor": "rgba(0, 0, 0, 0.75)"
+      "maskColor": "rgba(0,0,0,0.75)"
     },
     "template": {
       "type": "view",
       "properties": {
-        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "backgroundColor": "rgba(255,255,255,1)",
         "cornerRadius": "5px",
         "borderWidth": "0"
       },
@@ -381,7 +381,7 @@
           "properties": {
             "text": "恭喜获得大礼包",
             "font": "24px",
-            "color": "rgba(255, 0, 0, 1)",
+            "color": "rgba(255,0,0,1)",
             "textAlign": "center"
           },
           "layout": {
@@ -397,7 +397,7 @@
           "properties": {
             "text": "点击按钮立即领取",
             "font": "18px",
-            "color": "rgba(249, 200, 35, 1)",
+            "color": "rgba(249,200,35,1)",
             "lineHeight": "32px",
             "textAlign": "center"
           },
@@ -414,9 +414,9 @@
           "properties": {
             "text": "立即领取",
             "font": "18px",
-            "color": "rgba(255, 255, 255, 1)",
-            "backgroundColor": "rgba(249, 200, 35, 1)",
-            "borderColor": "rgba(229, 179, 13, 1)",
+            "color": "rgba(255,255,255,1)",
+            "backgroundColor": "rgba(249,200,35,1)",
+            "borderColor": "rgba(229,179,13,1)",
             "borderWidth": "1px",
             "cornerRadius": "5px"
           },
@@ -434,7 +434,7 @@
           "properties": {
             "text": "查看详细说明和解释",
             "font": "14px",
-            "color": "rgba(0, 0, 255, 1)"
+            "color": "rgba(0,0,255,1)"
           },
           "layout": {
             "align": "center",
