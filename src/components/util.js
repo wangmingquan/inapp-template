@@ -11,6 +11,8 @@ export default {
     const tree = []
     const tagMap = {
       view: 'div',
+      row: 'div',
+      column: 'div',
       label: 'p',
       image: 'img',
       button: 'button',
@@ -36,33 +38,28 @@ export default {
       marginRight: 'margin-right',
       marginBottom: 'margin-bottom',
       marginLeft: 'margin-left',
+      paddingTop: 'padding-top',
+      paddingRight: 'padding-right',
+      paddingBottom: 'padding-bottom',
+      paddingLeft: 'padding-left',
       display: 'display',
       lineHeight: 'line-height',
       textAlign: 'text-align',
       padding: 'padding',
-      textDecoration: 'text-decoration'
+      textDecoration: 'text-decoration',
+      boxSizing: 'box-sizing'
     }
 
     const getHTML = (template, options = {}) => {
       const { isFirstLevel, closeConfig = {} } = options
       const html = []
       const { layout, properties, type, subviews } = template
-      const { margin, align } = layout
-      if (type !== 'button') {
-        const containerStyle = {
-          overflow: 'hidden',
-          position: 'relative'
-        }
-        const containerStyleStrs = []
-        for (const i in containerStyle) {
-          containerStyleStrs.push(`${i}: ${containerStyle[i]}`)
-        }
-        html.push(`<div data-mark="container" style="${containerStyleStrs.join('; ')}">`)
-      }
+      const { margin, padding, align } = layout
 
       const style = {
         position: 'relative',
-        border: '1px solid rgba(0, 0, 0, 0.0)'
+        border: '1px solid rgba(0, 0, 0, 0.0)',
+        boxSizing: 'border-box'
       }
 
       // 行内转块级
@@ -78,6 +75,12 @@ export default {
           textDecoration: 'underline'
         })
       }
+      // link 特殊样式
+      if (type === 'row') {
+        Object.assign(style, {
+          display: 'flex'
+        })
+      }
       // 样式：对齐方式
       if (align) {
         if (align === 'center') {
@@ -86,9 +89,9 @@ export default {
             marginRight: 'auto'
           })
         } else if (align === 'left') {
-          style.float = 'left'
+          // style.float = 'left'
         } else if (align === 'right') {
-          style.float = 'right'
+          // style.float = 'right'
         }
       }
       // margin 翻译成具体的值
@@ -98,6 +101,13 @@ export default {
         if (margin.bottom) layout.marginBottom = margin.bottom
         if (margin.left) layout.marginLeft = margin.left
         delete layout.margin
+      }
+      if (padding) {
+        if (padding.top) layout.paddingTop = padding.top
+        if (padding.right) layout.paddingRight = padding.right
+        if (padding.bottom) layout.paddingBottom = padding.bottom
+        if (padding.left) layout.paddingLeft = padding.left
+        delete layout.padding
       }
 
       // 从数据中、布局中拿出样式
@@ -129,7 +139,7 @@ export default {
       } else if (type === 'link') {
         html.push(`<a style="${styleStrs.join('; ')}">`)
         html.push(properties.text)
-      } else if (type === 'view') {
+      } else if (type === 'view' || type === 'row' || type === 'column') {
         html.push(`<div style="${styleStrs.join('; ')}">`)
       } else if (type === 'button') {
         html.push(`<button style="${styleStrs.join('; ')}">`)
@@ -164,10 +174,6 @@ export default {
       }
 
       html.push(`</${tagMap[type]}>`)
-
-      if (type !== 'button') {
-        html.push('</div>')
-      }
       return html.join('')
     }
     // 遮罩层
