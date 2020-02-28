@@ -53,13 +53,17 @@ export default {
     const getHTML = (template, options = {}) => {
       const { isFirstLevel, closeConfig = {} } = options
       const html = []
-      const { layout, properties, type, subviews } = template
+      const { layout, properties = {}, type, subviews } = template
       const { margin, padding, align } = layout
 
       const style = {
         position: 'relative',
         border: '1px solid rgba(0, 0, 0, 0.0)',
         boxSizing: 'border-box'
+      }
+
+      if (properties.isHidden) {
+        return ''
       }
 
       // 行内转块级
@@ -89,9 +93,11 @@ export default {
             marginRight: 'auto'
           })
         } else if (align === 'left') {
-          // style.float = 'left'
+          html.push('<div style="overflow: hidden;">')
+          style.float = 'left'
         } else if (align === 'right') {
-          // style.float = 'right'
+          html.push('<div style="overflow: hidden;">')
+          style.float = 'right'
         }
       }
       // margin 翻译成具体的值
@@ -174,6 +180,12 @@ export default {
       }
 
       html.push(`</${tagMap[type]}>`)
+
+      if (align === 'left') {
+        html.push('</div>')
+      } else if (align === 'right') {
+        html.push('</div>')
+      }
       return html.join('')
     }
     // 遮罩层
