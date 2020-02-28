@@ -83,7 +83,7 @@
           "a": 1
         },
         "cornerRadius": "5px",
-        "borderWidth": "0"
+        "borderWidth": "0px"
       },
       "layout": {
         "align": "center",
@@ -225,7 +225,7 @@
           "a": 1
         },
         "cornerRadius": "20px",
-        "borderWidth": "0"
+        "borderWidth": "0px"
       },
       "layout": {
         "align": "center",
@@ -326,7 +326,7 @@
           "a": 1
         },
         "cornerRadius": "5px",
-        "borderWidth": "0"
+        "borderWidth": "0px"
       },
       "layout": {
         "align": "center",
@@ -496,7 +496,7 @@
           "a": 1
         },
         "cornerRadius": "5px",
-        "borderWidth": "0"
+        "borderWidth": "0px"
       },
       "layout": {
         "align": "center",
