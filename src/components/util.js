@@ -50,11 +50,15 @@ export default {
       boxSizing: 'box-sizing'
     }
 
-    const getHTML = (template, options = {}) => {
-      const { isFirstLevel, closeConfig = {} } = options
+    const getHTML = (template) => {
       const html = []
-      const { layout, properties = {}, type, subviews } = template
+      let { layout, properties = {}, type, subviews } = template
       const { margin, padding, align } = layout
+
+      if (type === 'image_button') {
+        type = 'image'
+        template.type = 'image'
+      }
 
       const style = {
         position: 'relative',
@@ -160,25 +164,6 @@ export default {
         }
       }
 
-      if (isFirstLevel && closeConfig.closeEnabled) {
-        const { closeStyle } = closeConfig
-        const { image, width, height } = closeStyle
-        const _closeStyle = {
-          position: 'absolute',
-          right: parseInt(width) / -2 + 'px',
-          top: parseInt(height) / -2 + 'px',
-          background: `url(${image}) no-repeat center`,
-          'background-size': '100% 100%',
-          width: width,
-          height: height
-        }
-        const closeStyleStr = []
-        for (const i in _closeStyle) {
-          closeStyleStr.push(`${i}: ${_closeStyle[i]}`)
-        }
-        html.push(`<div style="${closeStyleStr.join('; ')}"></div>`)
-      }
-
       html.push(`</${tagMap[type]}>`)
 
       if (align === 'left') {
@@ -191,13 +176,7 @@ export default {
     // 遮罩层
     tree.push(`<div style="width: 100%; height: 100%; position: fixed; left: 0; top: 0; background: ${rgba(data.properties.maskColor)}">`)
     // 弹窗内容
-    tree.push(getHTML(data.template, {
-      isFirstLevel: true,
-      closeConfig: {
-        closeEnabled: data.properties.closeEnabled,
-        closeStyle: data.properties.closeStyle
-      }
-    }))
+    tree.push(getHTML(data.template))
     tree.push('</div>')
     return tree.join('')
   }

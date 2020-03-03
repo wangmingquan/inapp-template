@@ -3,17 +3,11 @@
     "id": "V0101",
     "cname": "仅图片",
     "properties": {
-      "closeEnabled": true,
-      "closeStyle": {
-        "image": "https://s2.ax1x.com/2020/02/18/3FOztI.png",
-        "width": "32px",
-        "height": "32px"
-      },
       "maskColor": {
         "r": 0,
         "g": 0,
         "b": 0,
-        "a": 0.1
+        "a": 0.5
       },
       "maskCloseEnabled": true
     },
@@ -23,33 +17,67 @@
         "align": "center",
         "width": "287px",
         "margin": {
-          "top": "180px"
+          "top": "100px"
         }
       },
       "subviews": [
         {
-          "type": "image",
+          "type": "image_button",
           "properties": {
-            "image": "https://s2.ax1x.com/2020/02/18/3FOsf0.png",
-            "cornerRadius": "5px"
+            "image": "https://s2.ax1x.com/2020/02/18/3FOztI.png"
           },
           "layout": {
-            "align": "center",
-            "width": "287px",
-            "height": "382px"
+            "width": "32px",
+            "height": "32px",
+            "align": "right"
+          },
+          "action": {
+            "id": "id001",
+            "type": "close"
           }
         },
         {
-          "type": "image",
+          "type": "column",
+          "layout": {
+            "width": "287px",
+            "margin": {
+            }
+          },
+          "subviews": [
+            {
+              "type": "image_button",
+              "properties": {
+                "image": "https://s2.ax1x.com/2020/02/18/3FOsf0.png",
+                "cornerRadius": "5px"
+              },
+              "layout": {
+                "align": "center",
+                "width": "287px",
+                "height": "382px",
+                "margin": {
+                  "top": "20px"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "image_button",
           "properties": {
-            "image": "https://s2.ax1x.com/2020/02/18/3FOsf0.png",
-            "cornerRadius": "5px",
+            "image": "https://s2.ax1x.com/2020/02/18/3FOztI.png",
             "isHidden": true
           },
           "layout": {
+            "width": "32px",
+            "height": "32px",
             "align": "center",
-            "width": "287px",
-            "height": "382px"
+            "margin": {
+              "top": "20px"
+            }
+          },
+          "action": {
+            "id": "id002",
+            "type": "close"
           }
         }
       ]
@@ -69,134 +97,178 @@
         "r": 0,
         "g": 0,
         "b": 0,
-        "a": 0.3
+        "a": 0.45
       },
       "maskCloseEnabled": false
     },
     "template": {
       "type": "column",
-      "properties": {
-        "backgroundColor": {
-          "r": 255,
-          "g": 255,
-          "b": 255,
-          "a": 1
-        },
-        "cornerRadius": "5px",
-        "borderWidth": "0px"
-      },
       "layout": {
-        "align": "center",
         "width": "320px",
+        "align": "center",
         "margin": {
-          "top": "150px"
-        },
-        "padding": {
-          "top": "20px",
-          "right": "20px",
-          "bottom": "20px",
-          "left": "20px"
+          "top": "100px"
         }
       },
       "subviews": [
         {
           "type": "image",
           "properties": {
-            "image": "https://s2.ax1x.com/2020/02/18/3kCdnP.jpg",
-            "cornerRadius": "120px"
+            "image": "https://s2.ax1x.com/2020/02/18/3FOztI.png",
+            "isHidden": true
           },
           "layout": {
-            "align": "center",
-            "width": "200px",
-            "height": "200px"
+            "width": "32px",
+            "height": "32px",
+            "align": "right"
+          },
+          "action": {
+            "id": "id001",
+            "type": "close"
           }
         },
         {
-          "type": "label",
+          "type": "column",
           "properties": {
-            "text": "恭喜获得大礼包",
-            "font": "24px",
-            "color": {
+            "backgroundColor": {
               "r": 255,
-              "g": 0,
-              "b": 0,
-              "a": 1
-            },
-            "textAlign": "center"
-          },
-          "layout": {
-            "width": "200px",
-            "align": "center",
-            "margin": {
-              "top": "20px"
-            }
-          }
-        },
-        {
-          "type": "label",
-          "properties": {
-            "text": "点击下方 “领取大礼包” 立即领取",
-            "font": "14px",
-            "color": {
-              "r": 0,
-              "g": 0,
+              "g": 255,
               "b": 255,
               "a": 1
             },
-            "backgroundColor": {
-              "r": 239,
-              "g": 239,
-              "b": 239,
-              "a": 1
-            },
-            "lineHeight": "24px",
-            "textAlign": "center"
-          },
-          "layout": {
-            "margin": {
-              "top": "20px"
-            },
-            "padding": {
-              "top": "8px",
-              "right": "8px",
-              "bottom": "8px",
-              "left": "8px"
-            }
-          }
-        },
-        {
-          "type": "button",
-          "properties": {
-            "text": "领取大礼包",
-            "font": "18px",
-            "color": {
-              "r": 0,
-              "g": 0,
-              "b": 0,
-              "a": 0.3
-            },
-            "backgroundColor": {
-              "r": 249,
-              "g": 200,
-              "b": 35,
-              "a": 1
-            },
-            "borderColor": {
-              "r": 229,
-              "g": 179,
-              "b": 13,
-              "a": 1
-            },
-            "borderWidth": "2px",
-            "cornerRadius": "5px"
+            "cornerRadius": "5px",
+            "borderWidth": "0px"
           },
           "layout": {
             "align": "center",
-            "width": "150px",
-            "height": "48px",
+            "width": "320px",
+            "margin": {},
+            "padding": {
+              "top": "20px",
+              "right": "20px",
+              "bottom": "20px",
+              "left": "20px"
+            }
+          },
+          "subviews": [
+            {
+              "type": "image",
+              "properties": {
+                "image": "https://s2.ax1x.com/2020/02/18/3kCdnP.jpg",
+                "cornerRadius": "120px"
+              },
+              "layout": {
+                "align": "center",
+                "width": "200px",
+                "height": "200px"
+              }
+            },
+            {
+              "type": "label",
+              "properties": {
+                "text": "恭喜获得大礼包",
+                "font": "24px",
+                "color": {
+                  "r": 255,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                },
+                "textAlign": "center"
+              },
+              "layout": {
+                "width": "200px",
+                "align": "center",
+                "margin": {
+                  "top": "20px"
+                }
+              }
+            },
+            {
+              "type": "label",
+              "properties": {
+                "text": "点击下方 “领取大礼包” 立即领取",
+                "font": "14px",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 255,
+                  "a": 1
+                },
+                "backgroundColor": {
+                  "r": 239,
+                  "g": 239,
+                  "b": 239,
+                  "a": 1
+                },
+                "lineHeight": "24px",
+                "textAlign": "center"
+              },
+              "layout": {
+                "margin": {
+                  "top": "20px"
+                },
+                "padding": {
+                  "top": "8px",
+                  "right": "8px",
+                  "bottom": "8px",
+                  "left": "8px"
+                }
+              }
+            },
+            {
+              "type": "button",
+              "properties": {
+                "text": "领取大礼包",
+                "font": "18px",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 0.3
+                },
+                "backgroundColor": {
+                  "r": 249,
+                  "g": 200,
+                  "b": 35,
+                  "a": 1
+                },
+                "borderColor": {
+                  "r": 229,
+                  "g": 179,
+                  "b": 13,
+                  "a": 1
+                },
+                "borderWidth": "2px",
+                "cornerRadius": "5px"
+              },
+              "layout": {
+                "align": "center",
+                "width": "150px",
+                "height": "48px",
+                "margin": {
+                  "top": "20px"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "properties": {
+            "image": "https://s2.ax1x.com/2020/02/18/3FOztI.png"
+          },
+          "layout": {
+            "width": "32px",
+            "height": "32px",
+            "align": "center",
             "margin": {
               "top": "20px"
             }
+          },
+          "action": {
+            "id": "id002",
+            "type": "close"
           }
         }
       ]
