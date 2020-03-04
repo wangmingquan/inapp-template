@@ -13,25 +13,29 @@ export default {
       view: 'div',
       row: 'div',
       column: 'div',
-      label: 'p',
+      label: 'pre',
       image: 'img',
       button: 'button',
-      link: 'a'
+      link: 'button'
     }
     const styleMap = {
+      background: 'background',
       backgroundColor: 'background-color',
+      backgroundImage: 'background-image',
       cornerRadius: 'border-radius',
       border: 'border',
       borderWidth: 'border-width',
       borderColor: 'border-color',
+      outline: 'outline',
       width: 'width',
       height: 'height',
       font: 'font-size',
       color: 'color',
-      backgroundImage: 'background-image',
       position: 'position',
       float: 'float',
       overflow: 'overflow',
+      overflowX: 'overflow-x',
+      overflowY: 'overflow-y',
       left: 'left',
       transform: 'transform',
       marginTop: 'margin-top',
@@ -47,7 +51,11 @@ export default {
       textAlign: 'text-align',
       padding: 'padding',
       textDecoration: 'text-decoration',
-      boxSizing: 'box-sizing'
+      boxSizing: 'box-sizing',
+      maxWidth: 'max-width',
+      maxHeight: 'max-height',
+      whiteSpace: 'white-space',
+      wordWrap: 'word-wrap'
     }
 
     const getHTML = (template) => {
@@ -61,13 +69,24 @@ export default {
       }
 
       const style = {
-        position: 'relative',
-        border: '1px solid rgba(0, 0, 0, 0.0)',
-        boxSizing: 'border-box'
+        boxSizing: 'border-box',
+        overflow: 'hidden'
       }
 
       if (properties.isHidden) {
         return ''
+      }
+
+      // 处理局部滚动
+      if (properties.maxWidth) {
+        Object.assign(style, {
+          overflowX: 'auto'
+        })
+      }
+      if (properties.maxHeight) {
+        Object.assign(style, {
+          overflowY: 'auto'
+        })
       }
 
       // 行内转块级
@@ -76,11 +95,21 @@ export default {
           display: 'block'
         })
       }
+      // pre 换行
+      if (type === 'label') {
+        Object.assign(style, {
+          whiteSpace: 'pre-wrap',
+          wordWrap: 'break-word'
+        })
+      }
       // link 特殊样式
       if (type === 'link') {
         Object.assign(style, {
           display: 'block',
-          textDecoration: 'underline'
+          textDecoration: 'underline',
+          background: 'none',
+          border: 'none',
+          outline: 'none'
         })
       }
       // link 特殊样式
@@ -144,10 +173,10 @@ export default {
       }
 
       if (type === 'label') {
-        html.push(`<p style="${styleStrs.join('; ')}">`)
+        html.push(`<pre style="${styleStrs.join('; ')}">`)
         html.push(properties.text)
       } else if (type === 'link') {
-        html.push(`<a style="${styleStrs.join('; ')}">`)
+        html.push(`<button style="${styleStrs.join('; ')}">`)
         html.push(properties.text)
       } else if (type === 'view' || type === 'row' || type === 'column') {
         html.push(`<div style="${styleStrs.join('; ')}">`)
