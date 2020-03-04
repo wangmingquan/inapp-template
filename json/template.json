@@ -162,7 +162,7 @@
               "type": "label",
               "properties": {
                 "text": "标题文本区域",
-                "font": "24px",
+                "font": "22px",
                 "color": {
                   "r": 0,
                   "g": 0,
@@ -183,21 +183,20 @@
               "type": "label",
               "properties": {
                 "text": "正文文本输入区域\n正文文本输入区域",
-                "font": "14px",
+                "font": "16px",
                 "color": {
                   "r": 74,
                   "g": 74,
                   "b": 74,
                   "a": 1
                 },
-                "lineHeight": "24px",
                 "textAlign": "center"
               },
               "layout": {
                 "width": "290px",
                 "align": "center",
                 "margin": {
-                  "top": "10px"
+                  "top": "6px"
                 }
               }
             },
@@ -467,6 +466,209 @@
                     },
                     "borderWidth": "0px",
                     "cornerRadius": "20px"
+                  },
+                  "layout": {
+                    "width": "290px",
+                    "height": "40px",
+                    "margin": {
+                      "top": "10px"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "properties": {
+            "image": "http://sf-static.cn-bj.ufileos.com/product%2Fclose_icon.png"
+          },
+          "layout": {
+            "width": "32px",
+            "height": "32px",
+            "align": "center",
+            "margin": {
+              "top": "20px"
+            }
+          },
+          "action": {
+            "id": "id002",
+            "type": "close"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "V01031",
+    "cname": "纵排按钮",
+    "properties": {
+      "closeEnabled": true,
+      "closeStyle": {
+        "image": "http://sf-static.cn-bj.ufileos.com/product%2Fclose_icon.png",
+        "width": "32px",
+        "height": "32px"
+      },
+      "maskColor": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0.6
+      },
+      "maskCloseEnabled": false
+    },
+    "template": {
+      "type": "column",
+      "layout": {
+        "width": "310px",
+        "align": "center",
+        "margin": {
+          "top": "20px"
+        }
+      },
+      "subviews": [
+        {
+          "type": "image_button",
+          "properties": {
+            "image": "https://s2.ax1x.com/2020/03/04/3oG9mt.png"
+          },
+          "layout": {
+            "width": "30px",
+            "height": "30px",
+            "align": "right"
+          },
+          "action": [
+            {
+              "id": "id001",
+              "type": "close",
+              "$sf_close_type": "弹窗右上关闭icon"
+            }
+          ]
+        },
+        {
+          "type": "column",
+          "properties": {
+            "backgroundColor": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            },
+            "cornerRadius": "5px",
+            "borderWidth": "8px"
+          },
+          "layout": {
+            "align": "center",
+            "width": "310px",
+            "margin": {
+              "top": "10px"
+            },
+            "padding": {
+              "bottom": "17px"
+            }
+          },
+          "subviews": [
+            {
+              "type": "image",
+              "properties": {
+                "image": "https://s2.ax1x.com/2020/03/04/3oMT1I.png"
+              },
+              "layout": {
+                "align": "center",
+                "width": "310px",
+                "height": "220px"
+              }
+            },
+            {
+              "type": "label",
+              "properties": {
+                "text": "标题文本区域",
+                "font": "24px",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 1
+                },
+                "textAlign": "center"
+              },
+              "layout": {
+                "width": "290px",
+                "align": "center",
+                "margin": {
+                  "top": "10px"
+                }
+              }
+            },
+            {
+              "type": "label",
+              "properties": {
+                "text": "正文文本输入区域\n正文文本输入区域",
+                "font": "14px",
+                "color": {
+                  "r": 74,
+                  "g": 74,
+                  "b": 74,
+                  "a": 1
+                },
+                "lineHeight": "24px",
+                "textAlign": "center"
+              },
+              "layout": {
+                "width": "290px",
+                "align": "center",
+                "margin": {
+                  "top": "10px"
+                }
+              }
+            },
+            {
+              "type": "column",
+              "layout": {
+                "width": "290px",
+                "align": "center",
+                "margin": {
+                  "top": "10px"
+                }
+              },
+              "subviews": [
+                {
+                  "type": "button",
+                  "properties": {
+                    "text": "按钮文本 1",
+                    "font": "18px",
+                    "color": {
+                      "r": 255,
+                      "g": 255,
+                      "b": 255,
+                      "a": 1
+                    },
+                    "backgroundColor": {
+                      "r": 74,
+                      "g": 144,
+                      "b": 226,
+                      "a": 1
+                    },
+                    "borderWidth": "0px",
+                    "cornerRadius": "20px"
+                  },
+                  "layout": {
+                    "width": "290px",
+                    "height": "40px"
+                  }
+                },
+                {
+                  "type": "link",
+                  "properties": {
+                    "text": "链接文本 2",
+                    "font": "18px",
+                    "color": {
+                      "r": 0,
+                      "g": 0,
+                      "b": 255,
+                      "a": 1
+                    }
                   },
                   "layout": {
                     "width": "290px",
