@@ -291,7 +291,7 @@
     }
   },
   {
-    "id": "V0102",
+    "id": "V0103",
     "cname": "纵排按钮",
     "properties": {
       "closeEnabled": true,
@@ -502,7 +502,7 @@
     }
   },
   {
-    "id": "V0102",
+    "id": "V0104",
     "cname": "并排按钮",
     "properties": {
       "closeEnabled": true,
@@ -713,7 +713,7 @@
     }
   },
   {
-    "id": "V0102",
+    "id": "V0105",
     "cname": "文字",
     "properties": {
       "closeEnabled": true,

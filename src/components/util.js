@@ -160,7 +160,8 @@ export default {
       // 将小数比例转换成百分比
       for (const key in style) {
         let value = style[key]
-        if (/^0|1?\.\d+$/.test(value)) {
+        if (/^(0|1){0,1}\.\d+$/.test(value)) {
+          console.log(value)
           value = parseFloat(value) * 100 + '%'
         }
         style[key] = value
