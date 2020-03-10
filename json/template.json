@@ -36,21 +36,21 @@
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ],
             "android": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ],
             "h5": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ]
           }
@@ -88,21 +88,21 @@
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ],
             "android": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ],
             "h5": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ]
           }
@@ -153,21 +153,21 @@
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ],
             "android": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ],
             "h5": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ]
           }
@@ -336,21 +336,21 @@
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ],
             "android": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ],
             "h5": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ]
           }
@@ -401,21 +401,21 @@
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ],
             "android": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ],
             "h5": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ]
           }
@@ -584,21 +584,21 @@
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ],
             "android": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ],
             "h5": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ]
           }
@@ -643,21 +643,21 @@
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ],
             "android": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ],
             "h5": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ]
           }
@@ -818,21 +818,21 @@
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ],
             "android": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ],
             "h5": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ]
           }
@@ -877,21 +877,21 @@
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ],
             "android": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ],
             "h5": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ]
           }
@@ -1060,21 +1060,21 @@
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ],
             "android": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ],
             "h5": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ]
           }
@@ -1125,21 +1125,21 @@
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ],
             "android": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ],
             "h5": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗右上关闭icon"
+                "$sf_close_type": "popup_close_topRight"
               }
             ]
           }
@@ -1304,21 +1304,21 @@
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ],
             "android": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ],
             "h5": [
               {
                 "id": "id001",
                 "type": "close",
-                "$sf_close_type": "弹窗下部关闭icon"
+                "$sf_close_type": "popup_close_bottom"
               }
             ]
           }
