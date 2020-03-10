@@ -31,13 +31,29 @@
             "height": "30px",
             "align": "right"
           },
-          "action": [
-            {
-              "id": "id001",
-              "type": "close",
-              "$sf_close_type": "弹窗右上关闭icon"
-            }
-          ]
+          "action": {
+            "ios": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ],
+            "android": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ],
+            "h5": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ]
+          }
         },
         {
           "type": "image",
@@ -67,13 +83,29 @@
               "top": "10px"
             }
           },
-          "action": [
-            {
-              "id": "id002",
-              "type": "close",
-              "$sf_close_type": "弹窗下部关闭icon"
-            }
-          ]
+          "action": {
+            "ios": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ],
+            "android": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ],
+            "h5": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ]
+          }
         }
       ]
     }
@@ -116,13 +148,29 @@
             "height": "30px",
             "align": "right"
           },
-          "action": [
-            {
-              "id": "id001",
-              "type": "close",
-              "$sf_close_type": "弹窗右上关闭icon"
-            }
-          ]
+          "action": {
+            "ios": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ],
+            "android": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ],
+            "h5": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ]
+          }
         },
         {
           "type": "column",
@@ -161,6 +209,7 @@
             {
               "type": "label",
               "properties": {
+                "name": "标题",
                 "text": "标题文本区域",
                 "font": "22px",
                 "color": {
@@ -182,6 +231,7 @@
             {
               "type": "label",
               "properties": {
+                "name": "内容",
                 "text": "正文文本输入区域\n正文文本输入区域",
                 "font": "16px",
                 "color": {
@@ -282,8 +332,27 @@
             }
           },
           "action": {
-            "id": "id002",
-            "type": "close"
+            "ios": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ],
+            "android": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ],
+            "h5": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ]
           }
         }
       ]
@@ -327,13 +396,29 @@
             "height": "30px",
             "align": "right"
           },
-          "action": [
-            {
-              "id": "id001",
-              "type": "close",
-              "$sf_close_type": "弹窗右上关闭icon"
-            }
-          ]
+          "action": {
+            "ios": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ],
+            "android": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ],
+            "h5": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ]
+          }
         },
         {
           "type": "column",
@@ -372,6 +457,7 @@
             {
               "type": "label",
               "properties": {
+                "name": "标题",
                 "text": "标题文本区域",
                 "font": "24px",
                 "color": {
@@ -393,6 +479,7 @@
             {
               "type": "label",
               "properties": {
+                "name": "内容",
                 "text": "正文文本输入区域\n正文文本输入区域",
                 "font": "14px",
                 "color": {
@@ -493,8 +580,27 @@
             }
           },
           "action": {
-            "id": "id002",
-            "type": "close"
+            "ios": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ],
+            "android": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ],
+            "h5": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ]
           }
         }
       ]
@@ -504,12 +610,6 @@
     "id": "V01031",
     "cname": "纵排按钮",
     "properties": {
-      "closeEnabled": true,
-      "closeStyle": {
-        "image": "http://sf-static.cn-bj.ufileos.com/product%2Fclose_icon.png",
-        "width": "32px",
-        "height": "32px"
-      },
       "maskColor": {
         "r": 0,
         "g": 0,
@@ -538,13 +638,29 @@
             "height": "30px",
             "align": "right"
           },
-          "action": [
-            {
-              "id": "id001",
-              "type": "close",
-              "$sf_close_type": "弹窗右上关闭icon"
-            }
-          ]
+          "action": {
+            "ios": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ],
+            "android": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ],
+            "h5": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ]
+          }
         },
         {
           "type": "column",
@@ -583,6 +699,7 @@
             {
               "type": "label",
               "properties": {
+                "name": "标题",
                 "text": "标题文本区域",
                 "font": "24px",
                 "color": {
@@ -604,6 +721,7 @@
             {
               "type": "label",
               "properties": {
+                "name": "内容",
                 "text": "正文文本输入区域\n正文文本输入区域",
                 "font": "14px",
                 "color": {
@@ -696,8 +814,27 @@
             }
           },
           "action": {
-            "id": "id002",
-            "type": "close"
+            "ios": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ],
+            "android": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ],
+            "h5": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ]
           }
         }
       ]
@@ -707,12 +844,6 @@
     "id": "V0104",
     "cname": "并排按钮",
     "properties": {
-      "closeEnabled": true,
-      "closeStyle": {
-        "image": "http://sf-static.cn-bj.ufileos.com/product%2Fclose_icon.png",
-        "width": "32px",
-        "height": "32px"
-      },
       "maskColor": {
         "r": 0,
         "g": 0,
@@ -741,13 +872,29 @@
             "height": "30px",
             "align": "right"
           },
-          "action": [
-            {
-              "id": "id001",
-              "type": "close",
-              "$sf_close_type": "弹窗右上关闭icon"
-            }
-          ]
+          "action": {
+            "ios": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ],
+            "android": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ],
+            "h5": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ]
+          }
         },
         {
           "type": "column",
@@ -786,6 +933,7 @@
             {
               "type": "label",
               "properties": {
+                "name": "标题",
                 "text": "标题文本区域",
                 "font": "24px",
                 "color": {
@@ -807,6 +955,7 @@
             {
               "type": "label",
               "properties": {
+                "name": "内容",
                 "text": "正文文本输入区域\n正文文本输入区域",
                 "font": "14px",
                 "color": {
@@ -907,8 +1056,27 @@
             }
           },
           "action": {
-            "id": "id002",
-            "type": "close"
+            "ios": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ],
+            "android": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ],
+            "h5": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ]
           }
         }
       ]
@@ -952,13 +1120,29 @@
             "height": "30px",
             "align": "right"
           },
-          "action": [
-            {
-              "id": "id001",
-              "type": "close",
-              "$sf_close_type": "弹窗右上关闭icon"
-            }
-          ]
+          "action": {
+            "ios": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ],
+            "android": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ],
+            "h5": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗右上关闭icon"
+              }
+            ]
+          }
         },
         {
           "type": "column",
@@ -986,6 +1170,7 @@
             {
               "type": "label",
               "properties": {
+                "name": "标题",
                 "text": "惊爆你的眼球震惊你的神经惊爆你的眼球震惊你的神经惊爆你的眼球震惊你的神经",
                 "font": "22px",
                 "color": {
@@ -1010,6 +1195,7 @@
             {
               "type": "label",
               "properties": {
+                "name": "内容",
                 "text": "大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大大促销大促销大促销大促销大促销大促",
                 "font": "16px",
                 "color": {
@@ -1114,8 +1300,27 @@
             }
           },
           "action": {
-            "id": "id002",
-            "type": "close"
+            "ios": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ],
+            "android": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ],
+            "h5": [
+              {
+                "id": "id001",
+                "type": "close",
+                "$sf_close_type": "弹窗下部关闭icon"
+              }
+            ]
           }
         }
       ]
