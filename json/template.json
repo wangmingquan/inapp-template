@@ -32,21 +32,21 @@
             "align": "right"
           },
           "action": {
-            "ios": [
+            "IOS": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_topRight"
               }
             ],
-            "android": [
+            "ANDROID": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_topRight"
               }
             ],
-            "h5": [
+            "H5": [
               {
                 "id": "id001",
                 "type": "close",
@@ -84,21 +84,21 @@
             }
           },
           "action": {
-            "ios": [
+            "IOS": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_bottom"
               }
             ],
-            "android": [
+            "ANDROID": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_bottom"
               }
             ],
-            "h5": [
+            "H5": [
               {
                 "id": "id001",
                 "type": "close",
@@ -149,21 +149,21 @@
             "align": "right"
           },
           "action": {
-            "ios": [
+            "IOS": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_topRight"
               }
             ],
-            "android": [
+            "ANDROID": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_topRight"
               }
             ],
-            "h5": [
+            "H5": [
               {
                 "id": "id001",
                 "type": "close",
@@ -334,21 +334,21 @@
             }
           },
           "action": {
-            "ios": [
+            "IOS": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_bottom"
               }
             ],
-            "android": [
+            "ANDROID": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_bottom"
               }
             ],
-            "h5": [
+            "H5": [
               {
                 "id": "id001",
                 "type": "close",
@@ -399,21 +399,21 @@
             "align": "right"
           },
           "action": {
-            "ios": [
+            "IOS": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_topRight"
               }
             ],
-            "android": [
+            "ANDROID": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_topRight"
               }
             ],
-            "h5": [
+            "H5": [
               {
                 "id": "id001",
                 "type": "close",
@@ -584,21 +584,21 @@
             }
           },
           "action": {
-            "ios": [
+            "IOS": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_bottom"
               }
             ],
-            "android": [
+            "ANDROID": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_bottom"
               }
             ],
-            "h5": [
+            "H5": [
               {
                 "id": "id001",
                 "type": "close",
@@ -643,21 +643,21 @@
             "align": "right"
           },
           "action": {
-            "ios": [
+            "IOS": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_topRight"
               }
             ],
-            "android": [
+            "ANDROID": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_topRight"
               }
             ],
-            "h5": [
+            "H5": [
               {
                 "id": "id001",
                 "type": "close",
@@ -820,21 +820,21 @@
             }
           },
           "action": {
-            "ios": [
+            "IOS": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_bottom"
               }
             ],
-            "android": [
+            "ANDROID": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_bottom"
               }
             ],
-            "h5": [
+            "H5": [
               {
                 "id": "id001",
                 "type": "close",
@@ -879,21 +879,21 @@
             "align": "right"
           },
           "action": {
-            "ios": [
+            "IOS": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_topRight"
               }
             ],
-            "android": [
+            "ANDROID": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_topRight"
               }
             ],
-            "h5": [
+            "H5": [
               {
                 "id": "id001",
                 "type": "close",
@@ -1064,21 +1064,21 @@
             }
           },
           "action": {
-            "ios": [
+            "IOS": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_bottom"
               }
             ],
-            "android": [
+            "ANDROID": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_bottom"
               }
             ],
-            "h5": [
+            "H5": [
               {
                 "id": "id001",
                 "type": "close",
@@ -1129,21 +1129,21 @@
             "align": "right"
           },
           "action": {
-            "ios": [
+            "IOS": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_topRight"
               }
             ],
-            "android": [
+            "ANDROID": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_topRight"
               }
             ],
-            "h5": [
+            "H5": [
               {
                 "id": "id001",
                 "type": "close",
@@ -1310,21 +1310,21 @@
             }
           },
           "action": {
-            "ios": [
+            "IOS": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_bottom"
               }
             ],
-            "android": [
+            "ANDROID": [
               {
                 "id": "id001",
                 "type": "close",
                 "$sf_close_type": "popup_close_bottom"
               }
             ],
-            "h5": [
+            "H5": [
               {
                 "id": "id001",
                 "type": "close",
