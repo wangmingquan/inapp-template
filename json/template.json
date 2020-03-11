@@ -209,6 +209,7 @@
             {
               "type": "label",
               "properties": {
+                "msgType": "title",
                 "name": "标题",
                 "text": "标题文本区域",
                 "font": "22px",
@@ -231,6 +232,7 @@
             {
               "type": "label",
               "properties": {
+                "msgType": "content",
                 "name": "内容",
                 "text": "正文文本输入区域\n正文文本输入区域",
                 "font": "16px",
@@ -457,6 +459,7 @@
             {
               "type": "label",
               "properties": {
+                "msgType": "title",
                 "name": "标题",
                 "text": "标题文本区域",
                 "font": "24px",
@@ -479,6 +482,7 @@
             {
               "type": "label",
               "properties": {
+                "msgType": "content",
                 "name": "内容",
                 "text": "正文文本输入区域\n正文文本输入区域",
                 "font": "14px",
@@ -699,6 +703,7 @@
             {
               "type": "label",
               "properties": {
+                "msgType": "title",
                 "name": "标题",
                 "text": "标题文本区域",
                 "font": "24px",
@@ -721,6 +726,7 @@
             {
               "type": "label",
               "properties": {
+                "msgType": "content",
                 "name": "内容",
                 "text": "正文文本输入区域\n正文文本输入区域",
                 "font": "14px",
@@ -933,6 +939,7 @@
             {
               "type": "label",
               "properties": {
+                "msgType": "title",
                 "name": "标题",
                 "text": "标题文本区域",
                 "font": "24px",
@@ -955,6 +962,7 @@
             {
               "type": "label",
               "properties": {
+                "msgType": "content",
                 "name": "内容",
                 "text": "正文文本输入区域\n正文文本输入区域",
                 "font": "14px",
@@ -1170,6 +1178,7 @@
             {
               "type": "label",
               "properties": {
+                "msgType": "title",
                 "name": "标题",
                 "text": "惊爆你的眼球震惊你的神经惊爆你的眼球震惊你的神经惊爆你的眼球震惊你的神经",
                 "font": "22px",
@@ -1195,6 +1204,7 @@
             {
               "type": "label",
               "properties": {
+                "msgType": "content",
                 "name": "内容",
                 "text": "大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大促销大大促销大促销大促销大促销大促销大促",
                 "font": "16px",
